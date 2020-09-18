@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "orders"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "orderNumber": {
+      "type": "string",
+      "required": false
+    },
+    "firstName": {
+      "type": "string",
+      "required": false
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext",
+      "required": false
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": false
+    },
+    "zip": {
+      "type": "integer"
+    },
+    "qty": {
+      "type": "integer",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "custom": {
+      "type": "boolean",
+      "default": false
+    },
+    "complete": {
+      "type": "boolean",
+      "default": false
+    },
+    "delivering": {
+      "type": "boolean",
+      "default": false
+    },
+    "available": {
+      "type": "boolean",
+      "default": false
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.products"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

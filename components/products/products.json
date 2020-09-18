@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_products_products",
+  "info": {
+    "name": "products",
+    "icon": "window-restore"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "qty": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

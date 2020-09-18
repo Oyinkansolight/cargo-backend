@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_variant_variants",
+  "info": {
+    "name": "variant",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
